@@ -55,11 +55,6 @@ def read_images_from_file(file):
             
 train_images = read_images_from_file('data/train-images-idx3-ubyte.gz')
 test_images = read_images_from_file('data/t10k-images-idx3-ubyte.gz')
-
-for row in train_images[4999]:
-    for col in row:
-        print('.' if col <= 127 else '#', end='')
-    print()
         
 import PIL.Image as pil
 img = train_images[4999]
@@ -67,7 +62,7 @@ img = np.array(img)
 img = pil.fromarray(img)
 img = img.convert('RGB')
 img.show()
-img.save('train-04999-2.png')
+img.save('Question3 Images/train-04999-2.png')
 
 import PIL.Image as pil
 img = test_images[4999]
@@ -75,4 +70,4 @@ img = np.array(img)
 img = pil.fromarray(img)
 img = img.convert('RGB')
 img.show()
-img.save('test-04999-2.png')
+img.save('Question3 Images/test-04999-2.png')

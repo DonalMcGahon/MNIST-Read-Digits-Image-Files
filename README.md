@@ -20,7 +20,7 @@ They are all python files.
 4. Run the file by running the command "python" followed by the name of the file.
 * Here is an example - python Question1.py
 
-## Question 1 Aanswer
+## Question 1 Answer
 ![question1](https://user-images.githubusercontent.com/14197773/31169469-98946414-a8f0-11e7-937d-07b01c9350c9.png)
 
 ## Question 2 Answer

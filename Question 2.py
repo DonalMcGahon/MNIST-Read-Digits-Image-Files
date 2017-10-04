@@ -1,3 +1,4 @@
+# Adapted from: https://stackoverflow.com/questions/12902540/read-from-a-gzip-file-in-python
 import gzip
 import io
 
